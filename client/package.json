@@ -13,7 +13,7 @@
         "codemirror": "5.62.3",
         "date-fns": "2.23.0",
         "date-fns-tz": "1.1.6",
-        "dd-trace": "0.31.4",
+        "dd-trace": "0.36.3",
         "domhandler": "4.2.2",
         "html-react-parser": "1.2.8",
         "launchdarkly-node-server-sdk": "6.2.0",

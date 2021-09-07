@@ -1,0 +1,20 @@
+name: Puush
+on: 
+  push:
+jobs:
+  app: 
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v2
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
+      - name: Git Short
+        run: |
+          git rev-parse HEAD
+          git rev-parse --short HEAD
+          git log -10
+          echo "hash = $(git rev-parse --short HEAD)"
+          echo "::set-output name=sha7::$(git rev-parse --short HEAD)"
+        

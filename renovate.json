@@ -1,0 +1,24 @@
+{
+    "extends": [
+      "config:base",
+      ":pinDependencies"
+    ],
+    "prConcurrentLimit": 3,
+    "packageRules": [
+      {
+        "packageRules": [
+          {
+            "matchUpdateTypes": ["patch"],
+            "groupName": "all patch dependencies",
+            "groupSlug": "all-patch",
+            "automerge": true
+          }
+        ]
+      },
+      {
+        "matchUpdateTypes": ["pin", "minor", "patch"],
+        "automerge": true
+      }
+    ]
+  }
+  

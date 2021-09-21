@@ -2,8 +2,8 @@
     "name": "gday-api",
     "dependencies": {
         "@carbon/icons-react": "10.37.0",
-        "@sentry/browser": "6.13.1",
-        "@sentry/node": "6.13.1",
+        "@sentry/browser": "6.13.2",
+        "@sentry/node": "6.13.2",
         "@sentry/webpack-plugin": "1.17.1",
         "@types/codemirror": "5.60.2",
         "awesome-debounce-promise": "2.1.0",

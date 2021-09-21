@@ -5,7 +5,7 @@
         "@sentry/browser": "6.13.2",
         "@sentry/node": "6.13.2",
         "@sentry/webpack-plugin": "1.17.1",
-        "@types/codemirror": "5.60.2",
+        "@types/codemirror": "5.60.3",
         "awesome-debounce-promise": "2.1.0",
         "axios": "0.21.4",
         "base64url": "3.0.1",

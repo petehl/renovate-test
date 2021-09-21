@@ -37,7 +37,7 @@
         "@types/classnames": "2.3.1",
         "@types/express": "4.17.13",
         "@types/google.analytics": "0.0.42",
-        "@types/jest": "27.0.1",
+        "@types/jest": "27.0.2",
         "@types/linkifyjs": "2.1.4",
         "@types/lodash": "4.14.173",
         "@types/request-ip": "0.0.37",

@@ -7,7 +7,7 @@
         "@sentry/webpack-plugin": "1.17.1",
         "@types/codemirror": "5.60.3",
         "awesome-debounce-promise": "2.1.0",
-        "axios": "0.21.4",
+        "axios": "0.22.0",
         "base64url": "3.0.1",
         "classnames": "2.3.1",
         "codemirror": "5.63.1",

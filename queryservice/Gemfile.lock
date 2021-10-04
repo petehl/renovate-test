@@ -164,7 +164,12 @@ GEM
     multipart-post (2.1.1)
     netrc (0.11.0)
     nio4r (2.5.8)
+    nokogiri (1.12.5)
+      mini_portile2 (~> 2.6.1)
+      racc (~> 1.4)
     nokogiri (1.12.5-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.12.5-x86_64-linux)
       racc (~> 1.4)
     oj (3.13.8)
     parslet (2.0.0)
@@ -241,14 +246,14 @@ GEM
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     zeitwerk (2.4.2)
+
 GEM
   remote: https://rubygems.pkg.github.com/mercell/
   specs:
-    sd-procurement-xslt (0.2.11)
+    sd-procurement-xslt (0.2.14)
       nokogiri (>= 1.6.0)
-    sd-rails-utils (0.1.1)
+    sd-rails-utils (0.1.2)
       rails (>= 4.2.3)
-
 
 PLATFORMS
   ruby
@@ -276,6 +281,8 @@ DEPENDENCIES
   rails-healthcheck (= 1.4.0)
   redis (= 4.4.0)
   rest-client (= 2.1.0)
+  sd-procurement-xslt (= 0.2.14)!
+  sd-rails-utils (= 0.1.2)!
   spring
   tzinfo-data
   webmock (~> 3.13)

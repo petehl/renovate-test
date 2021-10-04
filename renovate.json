@@ -1,24 +1,46 @@
 {
-    "extends": [
-      "config:base",
-      ":pinDependencies"
-    ],
-    "prConcurrentLimit": 3,
-    "packageRules": [
-      {
-        "packageRules": [
-          {
-            "matchUpdateTypes": ["patch"],
-            "groupName": "all patch dependencies",
-            "groupSlug": "all-patch",
-            "automerge": true
-          }
-        ]
-      },
-      {
-        "matchUpdateTypes": ["pin", "minor", "patch"],
-        "automerge": true
+  "extends": [
+    "config:base",
+    ":pinDependencies"
+  ],
+  "prConcurrentLimit": 3,
+  "packageRules": [
+    {
+      "packageRules": [
+        {
+          "matchUpdateTypes": [
+            "patch"
+          ],
+          "groupName": "all patch dependencies",
+          "groupSlug": "all-patch",
+          "automerge": true
+        }
+      ]
+    },
+    {
+      "matchUpdateTypes": [
+        "pin",
+        "minor",
+        "patch"
+      ],
+      "automerge": true
+    }
+  ],
+  "npmrc": "@mercell:registry=https://npm.pkg.github.com/",
+  "hostRules": [
+    {
+      "matchHost": "https://npm.pkg.github.com/",
+      "hostType": "npm",
+      "encrypted": {
+        "token": "zEsyg4E4je9f5MV7mXLqOfgEID7pdTC9UPpounIYUR08eLftrNvzEnxvF0yi/uz0BOjwrXLHv3Bexw8B6a/jm4tU/pGnD3eryoQ9ccsVD9UvZZXAvj9NxwbiMRmRr/VNOERGb0Xie3fA1bVWUMqGi+ecTMz5jzXyqxp7nWZhKRJnTd+mNfoUoOj1EnuXhiA3OfPyrun66q3UfgBv8+CnPqrFWJytmH0GLWmwDa/Z5XGk3MHXnjiymMLHUor70jwHp4Rq9q6ciKBbUMLTG9LyUisUZHo9+21FXyEwWmuk2Yswt0Bl1EG7JQRLkwpdCJCfKoL1Yumu/YGj0kQjG34Qdg=="
       }
-    ]
-  }
-  
+    },
+    {
+      "matchHost": "https://rubygems.pkg.github.com/",
+      "hostType": "rubygems",
+      "encrypted": {
+        "token": "zEsyg4E4je9f5MV7mXLqOfgEID7pdTC9UPpounIYUR08eLftrNvzEnxvF0yi/uz0BOjwrXLHv3Bexw8B6a/jm4tU/pGnD3eryoQ9ccsVD9UvZZXAvj9NxwbiMRmRr/VNOERGb0Xie3fA1bVWUMqGi+ecTMz5jzXyqxp7nWZhKRJnTd+mNfoUoOj1EnuXhiA3OfPyrun66q3UfgBv8+CnPqrFWJytmH0GLWmwDa/Z5XGk3MHXnjiymMLHUor70jwHp4Rq9q6ciKBbUMLTG9LyUisUZHo9+21FXyEwWmuk2Yswt0Bl1EG7JQRLkwpdCJCfKoL1Yumu/YGj0kQjG34Qdg=="
+      }
+    }
+  ]
+}

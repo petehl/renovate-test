@@ -44,6 +44,11 @@ gem 'ddtrace', '0.52.0'
 
 gem 'rails-healthcheck', '1.4.0'
 
+source 'https://rubygems.pkg.github.com/mercell' do
+  gem 'sd-rails-utils', '0.1.1'
+  gem 'sd-procurement-xslt', '0.2.11'
+end
+
 gem 'rest-client', '2.1.0'
 
 gem "multi_json", "1.15.0"

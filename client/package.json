@@ -11,7 +11,7 @@
         "base64url": "3.0.1",
         "classnames": "2.3.1",
         "codemirror": "5.63.1",
-        "date-fns": "2.24.0",
+        "date-fns": "2.25.0",
         "date-fns-tz": "1.1.6",
         "dd-trace": "1.4.1",
         "domhandler": "4.2.2",

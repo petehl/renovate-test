@@ -64,3 +64,5 @@ gem "redis", "4.4.0"
 gem "hiredis", "0.6.3"
 
 gem "parslet", "2.0.0"
+
+gem "faker", "~> 2.19"

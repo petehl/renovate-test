@@ -3469,10 +3469,10 @@ date-fns@2.25.0:
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.25.0.tgz#8c5c8f1d958be3809a9a03f4b742eba894fc5680"
   integrity sha512-ovYRFnTrbGPD4nqaEqescPEv1mNwvt+UTqI3Ay9SzNtey9NZnYu6E2qCcBBgJ6/2VF1zGGygpyTDITqpQQ5e+w==
 
-dd-trace@1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/dd-trace/-/dd-trace-1.4.1.tgz#551f09a8023491577ba62a83256182ada4f5f838"
-  integrity sha512-6Apsiwme6U7TMEpWyCNk/y92SNPEoWc/a8Pl6z0FPn/Q71Sj17scv8DGv7sJhK/P99hfo66inVXDa+WS3jkiQA==
+dd-trace@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/dd-trace/-/dd-trace-1.5.0.tgz#2962adb15690b93e26862eff319beb50e1125384"
+  integrity sha512-mVWYp6hkMlO0uKB75GGpwuIO8Jv/BYWW1aJqy3LPkJ5VyBshcqWf5yUUhHmNDH55c2NrCK4oy/Q0tfxUXMVmCw==
   dependencies:
     "@datadog/native-metrics" "^1.0.0"
     "@datadog/pprof" "^0.1.3"

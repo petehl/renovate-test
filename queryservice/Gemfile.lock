@@ -70,7 +70,7 @@ GEM
     crack (0.4.5)
       rexml
     crass (1.0.6)
-    ddtrace (0.52.0)
+    ddtrace (0.53.0)
       ffi (~> 1.0)
       msgpack
     domain_name (0.5.20190701)
@@ -265,7 +265,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (= 1.9.1)
   byebug
-  ddtrace (= 0.52.0)
+  ddtrace (= 0.53.0)
   dotenv-rails
   elasticsearch (= 7.15.0)
   elasticsearch-explain-response (= 0.2.4)

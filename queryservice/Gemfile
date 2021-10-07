@@ -52,7 +52,7 @@ end
 gem 'rest-client', '2.1.0'
 
 gem "multi_json", "1.15.0"
-gem "oj", "3.13.8"
+gem "oj", "3.13.9"
 
 gem 'elasticsearch-explain-response', '0.2.4'
 gem "launchdarkly-server-sdk", "6.2.4"

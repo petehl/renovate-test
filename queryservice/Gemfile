@@ -6,7 +6,7 @@ ruby '3.0.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '6.1.4.1'
 # Use Puma as the app server
-gem 'puma', '5.5.0'
+gem 'puma', '5.5.2'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '2.11.2'
 # Use Active Model has_secure_password
@@ -55,7 +55,7 @@ gem "multi_json", "1.15.0"
 gem "oj", "3.13.9"
 
 gem 'elasticsearch-explain-response', '0.2.4'
-gem "launchdarkly-server-sdk", "6.2.4"
+gem "launchdarkly-server-sdk", "6.2.5"
 
 gem "rack-health", "0.1.2"
 

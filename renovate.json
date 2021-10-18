@@ -1,7 +1,6 @@
 {
   "extends": [
-    "config:base",
-    ":pinDependencies"
+    "config:base"
   ],
   "hostRules": [
     {
